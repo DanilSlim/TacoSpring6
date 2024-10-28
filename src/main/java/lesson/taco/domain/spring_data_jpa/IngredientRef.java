@@ -16,7 +16,7 @@ public class IngredientRef {
     @Column(name = "TACO")
     private long tacoId;
 
-    @Column(name = "TACO_KEY", nullable = true)
+    @Column(name = "TACO_KEY")
     private Long tacoKey;
 
 }
