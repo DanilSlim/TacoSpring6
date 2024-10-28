@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: spring_data_jpa
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:h2:mem:taco
+    generate-unique-name: false
+    name: taco
+  jpa:
+    hibernate:
+      ddl-auto: none
